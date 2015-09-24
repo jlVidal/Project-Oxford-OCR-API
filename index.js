@@ -20,7 +20,7 @@ function getLanguageOrDefault(options) {
 function getDetectOrientationOrDefault(options) {
     var detectOrientation;
     if (util.isNullOrUndefined(options) || util.isNullOrUndefined(options.detectOrientation)) {
-        detectOrientation = "unk";
+        detectOrientation = true;
     }
     else {
         detectOrientation = options.detectOrientation;
