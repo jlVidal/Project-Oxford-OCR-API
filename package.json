@@ -1,0 +1,29 @@
+{
+  "name": "project-oxford-ocr-api",
+  "version": "1.0.0",
+  "description": "Using project Oxford OCR API with Node.JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlVidal/Project-Oxford-OCR-API.git"
+  },
+  "keywords": [
+    "microsoft",
+    "project",
+    "oxford",
+    "ocr",
+    "api"
+  ],
+  "author": "'John <'joao.lvidal@gmail.com'> (http://github.com/jlVidal)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jlVidal/Project-Oxford-OCR-API/issues"
+  },
+  "homepage": "https://github.com/jlVidal/Project-Oxford-OCR-API#readme",
+  "dependencies": {
+    "request": "^2.63.0"
+  }
+}
