@@ -7,9 +7,9 @@ How to using Project Oxford OCR API:
 
 ### Requirements
 
-    Node v4.0.0 or major
+    1. Node v4.0.0 or major
     
-    Project Oxford API key
+    2. Project Oxford API key
     
 Go to  https://www.projectoxford.ai/doc/general/subscription-key-mgmt and follow the steps to get an API key.
 
@@ -39,12 +39,12 @@ api.fromBase64({ data : "base64StringImage"}, callback);
 
 api.fromBuffer({ data : new Buffer(data)}, callback);
 
-app.fromImageUrl( { url : "http://foo.com/imgUrl.png"}, callback);
+app.fromImageUrl({ url : "http://foo.com/imgUrl.png"}, callback);
 ````
 
 ### Options
 
-Options to use with the API. 
+Other parameters to use with the API. 
 ````json
 {
     "language" : 'en',
