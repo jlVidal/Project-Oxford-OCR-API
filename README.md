@@ -9,7 +9,8 @@ How to using Project Oxford OCR API:
 
     Node v4.0.0 or major
     
-### First
+    Project Oxford API key
+    
 Go to  https://www.projectoxford.ai/doc/general/subscription-key-mgmt and follow the steps to get an API key.
 
 ### Installation
