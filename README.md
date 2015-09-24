@@ -1,14 +1,22 @@
 # Project Oxford OCR API
 
 Microsoft’s Project Oxford helps developers build more intelligent apps.
-This library was created to use for call the Project Oxford OCR API from any Node.JS app.
+This library was created to use for OCR API from any Node.JS app.
 
 How to using Project Oxford OCR API:
 
+### Requirements
+
+    Node v4.0.0 or major
+    
 ### First
 Go to  https://www.projectoxford.ai/doc/general/subscription-key-mgmt and follow the steps to get an API key.
 
-### Code
+### Installation
+
+    npm install project-oxford-ocr-api
+    
+### Code Sample
 ```` js
 var api = require("project-oxford-ocr-api");
 
@@ -23,7 +31,7 @@ api.fromStream({ data : fs.createReadStream("C:\\temp\\sample.jpg")}, (error,res
 
 ````
 
-### Alternatives
+### Usage Alternatives
 
 ```` js
 api.fromBase64({ data : "base64StringImage"}, callback);
