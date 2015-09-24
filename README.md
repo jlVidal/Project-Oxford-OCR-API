@@ -26,16 +26,11 @@ api.fromStream({ data : fs.createReadStream("C:\\temp\\sample.jpg")}, (error,res
 ### Alternatives
 
 ```` js
-api.fromBase64({ data : "base64StringImage"}, (error,response,result) =>
-{
-   
-});
+api.fromBase64({ data : "base64StringImage"}, callback);
 
-api.fromBuffer({ data : new Buffer(data)}, (error,response,result) =>
-{
-   
-});
+api.fromBuffer({ data : new Buffer(data)}, callback);
 
+app.fromImageUrl( { url : "http://foo.com/imgUrl.png"}, callback);
 ````
 
 ### Options
@@ -43,9 +38,8 @@ api.fromBuffer({ data : new Buffer(data)}, (error,response,result) =>
 Options to use with the API. 
 ````json
 {
-    data : photoData,
-    language : 'en',
-    detectOrientation : 'true'
+    "language" : 'en',
+    "detectOrientation" : 'true'
 }
 ````
 For more information (available languages and other details) check:
