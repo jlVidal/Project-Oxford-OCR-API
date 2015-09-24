@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/project-oxford-ocr-api.svg)](http://badge.fury.io/js/project-oxford-ocr-api)
+
 # Project Oxford OCR API
 
 Microsoft’s Project Oxford helps developers build more intelligent apps.
