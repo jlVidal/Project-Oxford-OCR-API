@@ -2,10 +2,11 @@
 
 # Project Oxford OCR API
 
-Microsoft’s Project Oxford helps developers build more intelligent apps.
-This library was created to use for OCR API from any Node.JS app.
+Microsoft’s Project Oxford helps developers build more intelligent apps. Check http://projectoxford.ai for more information.
 
-How to using Project Oxford OCR API:
+This library was created to use the OCR API from any Node.JS app. 
+
+How to using this library:
 
 ### Requirements
 
